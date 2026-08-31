@@ -1,5 +1,5 @@
 const CACHE='baqiyat-v6';
-const APP=['./','./index.html','./manifest.json','./M1A1.png'];
+const APP=['./','./index.html','./manifest.json','./icon.svg'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(APP)).then(()=>self.skipWaiting()));
 });
