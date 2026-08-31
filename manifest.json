@@ -24,9 +24,9 @@
       "purpose": "any maskable"
     },
     {
-      "src": "M1A1.png",
+      "src": "icon.svg",
       "sizes": "any",
-      "type": "image/png+xml",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ]
